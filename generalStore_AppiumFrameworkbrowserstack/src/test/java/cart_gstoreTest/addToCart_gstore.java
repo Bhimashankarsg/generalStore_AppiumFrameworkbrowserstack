@@ -9,7 +9,7 @@ import genericUtility_gstore.baseclass_gstore;
 import objectRepository_gstore.loginPageOR_gstore;
 import objectRepository_gstore.productPageOR_gstore;
 
-public class addToCart_gstoreTest extends baseclass_gstore {
+public class addToCart_gstore extends baseclass_gstore {
 	@Test
 	public void addToCart() throws InterruptedException, IOException {
 		aLib.implicitWait(driver);
