@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTests" parallel="tests" thread-count="2">
+  <test name="iPhone XS">
+    <parameter name="device" value="iPhone XS"/>
+    <parameter name="os_version" value="15"/>
+    <classes>
+    
+      <class name="cart_gstoreTest.sampleipa_ios"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  <test name="iPhone 12 Mini">
+        <parameter name="device" value="iPhone 12 Mini" />
+        <parameter name="os_version" value="14" />
+    <classes>
+    
+      <class name="cart_gstoreTest.sampleipa_ios"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

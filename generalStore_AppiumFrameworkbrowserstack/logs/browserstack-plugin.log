@@ -1,0 +1,11 @@
+16:48:37.066 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+16:48:37.080 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=zwvzq5ppDxxS3p4XnzFv, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.5, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=bhimashankarghat_MkXTQ1, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.10]
+16:48:37.083 [Worker-127: Launching mavenrun-af5de268-2ad9-4ea8-ad46-ff2536aa2913] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+16:49:25.530 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:49:25.530 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:49:25.531 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/generalStore_AppiumFrameworkbrowserstack
+16:49:25.532 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:49:25.532 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:49:25.533 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/generalStore_AppiumFrameworkbrowserstack
+17:09:41.929 [Worker-137: Launching Executing test in C__Users_BHIMASHANKAR_eclipse-workspace_Appium_generalStore_AppiumFrameworkbrowserstack] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:21:19.380 [Framework stop - Equinox Container: d28b0916-13a7-41ed-9c71-db1d20da36ac] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...

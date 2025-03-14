@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-16T12:28:01 IST" name="ParallelTests" finished-at="2024-12-16T12:28:32 IST" duration-ms="30441">
+    <groups>
+    </groups>
+    <test started-at="2024-12-16T12:28:01 IST" name="iPhone 12 Mini" finished-at="2024-12-16T12:28:30 IST" duration-ms="29062">
+      <class name="cart_gstoreTest.sampleipa_ios">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:cart_gstoreTest.sampleipa_ios@7188af83]" started-at="2024-12-16T12:28:01 IST" name="test" finished-at="2024-12-16T12:28:30 IST" duration-ms="29019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone 12 Mini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- cart_gstoreTest.sampleipa_ios -->
+    </test> <!-- iPhone 12 Mini -->
+    <test started-at="2024-12-16T12:28:01 IST" name="iPhone XS" finished-at="2024-12-16T12:28:32 IST" duration-ms="30440">
+      <class name="cart_gstoreTest.sampleipa_ios">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:cart_gstoreTest.sampleipa_ios@76a4ebf2]" started-at="2024-12-16T12:28:01 IST" name="test" finished-at="2024-12-16T12:28:32 IST" duration-ms="30404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone XS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- cart_gstoreTest.sampleipa_ios -->
+    </test> <!-- iPhone XS -->
+  </suite> <!-- ParallelTests -->
+</testng-results>
